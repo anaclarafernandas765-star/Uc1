@@ -1,0 +1,26 @@
+.efeito{
+                width: 80%;
+                height: 32px;
+                border: 0;
+                background-color:#7f8c8d;
+                border-radius: 16px;
+            }
+            .efeito:hover{
+                background-color: grey;
+                color: white;
+            }
+        p,a{  color: black;
+            text-align: left;
+        }
+        html,body{
+            margin:0px;
+            padding: 0px;
+        }
+        header{
+            display: flex; /*organização da caixa*/
+            justify-content: space-around; /*Organização na horizontal*/
+            align-items: center;/*Organização na vertical*/
+            height: 64px;
+            width: 100%;
+            background-color: black; /*Cor de fundo header*/
+        }
